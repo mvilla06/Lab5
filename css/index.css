@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    text-align: center;
+
+}
+
+form input{
+    width:80%;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: solid 1px grey;
+   
+}
+
+.item img{
+    margin-right:10px;
+
+}
+
+.item a{
+    height: fit-content;
+}
+
+#b{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+#b>button{
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+}
+
+
+.results{
+    display:flex;
+    flex-direction: column;
+    
+}
